@@ -38,7 +38,6 @@ The theme will apply automatically.
 ### Cards
 
 To add the container styles used in the documentation, add the `.is-card` class to the `<pre>` tag.
-<br>
 As the name suggests, `.is-card` should be used if the code block is part of a `.card`.
 
 ```html
