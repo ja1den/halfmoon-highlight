@@ -1,0 +1,24 @@
+{
+	"name": "halfmoon-highlight",
+	"version": "1.0.0",
+	"private": false,
+	"description": "The official Halfmoon highlight.js theme",
+	"keywords": [
+		"halfmoon",
+		"highlight"
+	],
+	"homepage": "https://github.com/Jadie-Wadie/halfmoon-highlight#readme",
+	"bugs": {
+		"url": "https://github.com/Jadie-Wadie/halfmoon-highlight/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jadie-Wadie/halfmoon-highlight.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Jadie-Wadie",
+		"url": "https://github.com/Jadie-Wadie"
+	},
+	"main": "dist/index.css"
+}
