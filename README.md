@@ -1,6 +1,6 @@
 # Halfmoon Highlight
 
-![Publish](https://img.shields.io/github/workflow/status/ja1den/halfmoon-highlight/publish)
+![Build Status](https://img.shields.io/github/workflow/status/ja1den/halfmoon-highlight/publish)
 ![License](https://img.shields.io/npm/l/halfmoon-highlight)
 
 The [highlight.js](https://highlightjs.org/) theme found in the [Halfmoon](https://www.gethalfmoon.com/) documentation.
@@ -13,7 +13,7 @@ Install the package with [npm](https://www.npmjs.com/).
 npm install halfmoon-highlight
 ```
 
-After installation, import it with the following:
+Then import it as a module.
 
 ```js
 import 'halfmoon-highlight';
@@ -32,13 +32,13 @@ The styles are also available from CDN.
 
 ## Usage
 
-Install [highlight.js](https://highlightjs.org/) and run the initialisation method.
+Install [highlight.js](https://www.npmjs.com/package/highlight.js) and call the initialisation method.
 
 ```js
 hljs.initHighlightingOnLoad();
 ```
 
-Then, include your code inside `<pre><code>` tags.
+Then, include your code inside `<pre>` and `<code>` tags.
 
 ```html
 <pre>
@@ -52,8 +52,7 @@ If you need help, take a look at the highlight.js [documentation](https://highli
 
 ### Cards
 
-To add the container styles used in the Halfmoon documentation, add the `.is-card` class to the `<pre>` tag.
-As the name suggests, `.is-card` should be used if the code block is part of a `.card` component.
+Using the `.is-card` class on a `<pre>` tag will add the container styles from the Halfmoon [documentation](https://www.gethalfmoon.com/docs/introduction/).
 
 ```html
 <pre class="is-card">
@@ -62,6 +61,8 @@ As the name suggests, `.is-card` should be used if the code block is part of a `
 	</code>
 </pre>
 ```
+
+This should be used if the code block is part of a `.card` component.
 
 ## License
 
