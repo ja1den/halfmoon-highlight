@@ -13,7 +13,7 @@ Install the package with [npm](https://www.npmjs.com/).
 npm install halfmoon-highlight
 ```
 
-Then import it as a module.
+Then, import it as a module.
 
 ```js
 import 'halfmoon-highlight';
