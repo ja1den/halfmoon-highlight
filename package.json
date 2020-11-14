@@ -1,24 +1,32 @@
 {
 	"name": "halfmoon-highlight",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"private": false,
-	"description": "The official Halfmoon highlight.js theme",
+	"description": "The highlight.js theme found in the Halfmoon documentation.",
 	"keywords": [
 		"halfmoon",
-		"highlight"
+		"highlight",
+		"syntax"
 	],
-	"homepage": "https://github.com/Jadie-Wadie/halfmoon-highlight#readme",
+	"homepage": "https://github.com/ja1den/halfmoon-highlight#readme",
 	"bugs": {
-		"url": "https://github.com/Jadie-Wadie/halfmoon-highlight/issues"
+		"url": "https://github.com/ja1den/halfmoon-highlight/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Jadie-Wadie/halfmoon-highlight.git"
+		"url": "git+https://github.com/ja1den/halfmoon-highlight.git"
 	},
 	"license": "MIT",
 	"author": {
-		"name": "Jadie-Wadie",
-		"url": "https://github.com/Jadie-Wadie"
+		"name": "Jaiden Douglas",
+		"url": "https://github.com/ja1den"
 	},
-	"main": "dist/index.css"
+	"main": "dist/index.css",
+	"scripts": {
+		"lint": "prettier -wu \"*\" && sort-package-json"
+	},
+	"devDependencies": {
+		"prettier": "^2.1.2",
+		"sort-package-json": "^1.46.1"
+	}
 }
