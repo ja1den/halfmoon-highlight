@@ -1,7 +1,6 @@
 {
 	"name": "halfmoon-highlight",
 	"version": "1.0.4",
-	"private": false,
 	"description": "The highlight.js theme found in the Halfmoon documentation.",
 	"keywords": [
 		"halfmoon",
@@ -23,10 +22,9 @@
 	},
 	"main": "dist/index.css",
 	"scripts": {
-		"lint": "prettier -wu \"*\" && sort-package-json"
+		"lint": "sort-package-json"
 	},
 	"devDependencies": {
-		"prettier": "^2.1.2",
-		"sort-package-json": "^1.46.1"
+		"sort-package-json": "^1.49.0"
 	}
 }

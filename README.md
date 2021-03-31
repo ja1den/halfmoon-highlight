@@ -1,9 +1,6 @@
 # Halfmoon Highlight
 
-![Build Status](https://img.shields.io/github/workflow/status/ja1den/halfmoon-highlight/publish)
-![License](https://img.shields.io/npm/l/halfmoon-highlight)
-
-The [highlight.js](https://highlightjs.org/) theme found in the [Halfmoon](https://www.gethalfmoon.com/) documentation.
+> The [highlight.js](https://highlightjs.org/) theme found in the [Halfmoon](https://www.gethalfmoon.com/) documentation.
 
 ## Installation
 
@@ -21,7 +18,6 @@ import 'halfmoon-highlight';
 
 The styles are also available from CDN.
 
-<!-- prettier-ignore -->
 ```html
 <link href="https://cdn.jsdelivr.net/npm/halfmoon-highlight" rel="stylesheet" />
 
