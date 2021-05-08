@@ -38,9 +38,9 @@ Then, include your code inside `<pre>` and `<code>` tags.
 
 ```html
 <pre>
-	<code class="js">
-		console.log('Hello world!');
-	</code>
+  <code class="js">
+    console.log('Hello world!');
+  </code>
 </pre>
 ```
 
@@ -52,9 +52,9 @@ Using the `.is-card` class on a `<pre>` tag will add the container styles from t
 
 ```html
 <pre class="is-card">
-	<code class="js">
-		console.log('Hello world!');
-	</code>
+  <code class="js">
+    console.log('Hello world!');
+  </code>
 </pre>
 ```
 
